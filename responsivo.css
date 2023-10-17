@@ -1,0 +1,116 @@
+@media screen and (max-width: 640px) {  
+    .container {
+        max-width: 90%;
+    }
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 90%;
+    }
+    header .container h1 {
+        font-size: 18px;
+    }
+    header .container a {
+        font-size: 12px;
+    }
+    .container-sobre{
+        display: block;
+        justify-content: space-between;       
+    }    
+    .container-sobre img {
+        display: block;
+        margin:auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    } 
+    .container-sobre hr, .container-produtos hr {
+        margin: 8px 36px 24px 36px;
+    }
+    .container-sobre p {
+        display: block;
+        margin: auto;
+        max-width: 80%;
+    }
+    .container-produtos h2 {
+        margin-left: 32px;
+    }
+    .lista-produtos {
+        display: block;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .produto img {
+        max-width: 100%;
+    }
+    .produto p {
+        max-width: 100%;
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+    .produto button {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    header {
+        width: 100%;
+    }
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .container {
+        max-width: 90%;
+    }
+    .container-sobre, .container-produtos {
+        display: block;
+        max-width: 90%;
+    }
+    .container-sobre hr, .container-produtos hr {
+        max-width: 90%;
+        margin: auto;
+        margin-top: 8px;
+        margin-bottom: 24px;        
+    }    
+    .container-sobre h2, .container-sobre p, .container-produtos h2 {
+        margin-top: 16px;
+        margin-left: 32px;
+    }
+    .container-sobre p {
+        max-width: 90%;
+    }
+    .container-sobre img {
+        display: block;
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        max-width: 90%;
+    }
+    .lista-produtos  {
+        display: grid;
+        max-width: 90%;
+        font-size: 1.5em;
+        grid-template-columns: repeat(2, 49%) ;
+        column-gap: 2%;
+        row-gap: 5%;
+        margin: auto;
+    }
+    .lista-produtos a {
+        margin: auto;
+    } 
+    .lista-produtos img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        place-self: center;
+    }
+    .lista-produtos button {
+        max-width: 100%;
+    }  
+}
